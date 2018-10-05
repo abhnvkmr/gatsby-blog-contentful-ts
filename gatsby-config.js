@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Gatsby Blog Starter with Contentful and TypeScript',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
+        name: 'gatsby-starter-blog-contentful-typescript',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
@@ -17,5 +17,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-typescript',
   ],
 }
